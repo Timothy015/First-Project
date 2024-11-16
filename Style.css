@@ -1,0 +1,213 @@
+/*Background colour for inside & outside container*/
+*{
+    margin: 0px;
+}
+
+body{
+    margin: 5px;
+    background-color: #0041C2;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+}
+
+.Container{
+    display: flex;
+    column-gap: 15px;
+}
+
+/*Branch Style, Branch Size & Display*/
+.Branch_1{
+    height: 1000px;
+    width: 304px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium;
+}
+
+.Branch_2{
+    height: 1680px;
+    width: 304px;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;  
+    font-size: medium;
+}
+
+.Branch_3{
+    height: 900px;
+    width: 304px;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium;
+}
+
+.Branch_4{
+    height: 769px;
+    width: 304px;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium;
+}
+
+.Branch_5{
+    height: 550px;
+    width: 304px;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium;
+}
+
+.Branch_6{
+    height: 280px;
+    width: 304px;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium;
+}
+
+/*Object Style*/
+
+.Object_01:nth-child(even) , .Object_02:nth-child(even) , .Object_03:nth-child(even) , .Object_04:nth-child(even) , .Object_05:nth-child(even) , .Object_06:nth-child(even){
+    display: flex;
+    grid-template-columns: 230px 100px;
+    grid-template-rows: 50px 50px;
+    background-color: #FFD800;
+    width: 300px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.Object_01:nth-child(odd) , .Object_02:nth-child(odd) , .Object_03:nth-child(odd) , .Object_04:nth-child(odd) , .Object_05:nth-child(odd) , .Object_06:nth-child(odd){
+    display: flex;
+    grid-template-columns: 230px 100px;
+    grid-template-rows: 50px 50px;
+    background-color: #FFD800;
+    width: 300px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.Name_Forward{
+    display: flex;
+    align-items: center;
+    text-indent: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/*Match Data Sizes*/
+select{ 
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+select.Name{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.Match_01{
+  width: 200px;
+}
+
+.Object_01{
+  margin-top: 5%;
+}
+
+.Object_02{
+  margin-top: 5%;
+}
+
+.Match_02{
+  height: 185px;
+}
+
+.Object_03{
+    margin-top: 10%;
+}
+
+.Match_03{
+  height: 185px;
+}
+
+.Object_04{
+  margin-top: 15%;
+}
+
+.Match_04{
+  width: 200px;
+}
+
+.Object_05{
+  margin-top: 17%;
+}
+
+.Match_05{
+  width: 200px;
+}
+
+.Object_06{
+  margin-top: 25%;
+}
+
+.First:hover{
+  background-color: #F27F0C;
+  color: black;
+  font-size: 30px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.First{
+  background-color: #F27F0C;
+  color: black;
+  font-size: 30px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+label.number{
+  font-size: 30px;
+}
+
+.Link_Style{
+  margin-top: 10px;
+}
